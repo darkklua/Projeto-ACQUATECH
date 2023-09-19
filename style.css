@@ -1,0 +1,33 @@
+/* quando quero estilizar uma tag inteira e n uma classe, n precisa colcoar o . antes do nome */
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid pink;
+    /* margin-left: 10%;
+    margin-right: 10%; or */
+
+    /* margin: 0 10% 0 10%;  começa de cima, direita, baixo e esquerda*/
+
+    /* margin: 0 10% 0;  cima, direita esquerda e baixo*/
+
+    margin: 0 10%; /*cima e baixo, direita e esquerda*/
+}
+
+h1 {
+    color: #32b9cd;
+    margin: 0;
+}
+
+.navbar {
+    color: rgb(255, 255, 0);
+}
