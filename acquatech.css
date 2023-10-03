@@ -1,0 +1,64 @@
+/* header */
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-bottom: 4px solid cornflowerblue;
+}
+
+.header>.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.header>.container>h1 {
+    color: cornflowerblue;
+    margin: 0;
+}
+
+.header>.container>.navbar {
+    list-style: none;
+}
+
+.header>.container>.navbar>li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.header>.container>.navbar>li>a {
+    text-decoration: none;
+    color: #ff9500;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(imagens/bg-jelly-fish-para_outras_pags.png);
+}
+
+.banner>.container>p {
+    margin: 0;
+    font-size: 32px;
+    width: 10%;
+    color: white;
+}
+
+.banner>.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 10%;
+}
